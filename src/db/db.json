@@ -1,0 +1,24 @@
+{
+  "usuario": [
+    {
+      "id": "7c5cf730-4c08-4142-9d83-b78cda37a529",
+      "nombre": "Nicolas Rolon",
+      "email": "nico.emoxito@mail.com",
+      "cuentasBancarias": []
+    },
+    {
+      "id": "d2a4794c-f2b9-473c-ae3f-c1b23c605f95",
+      "nombre": "Nicolas Rolon",
+      "email": "nico.enogi@hotmail.com",
+      "cuentasBancarias": []
+    },
+    {
+      "id": "90e4b943-e31c-434d-875a-7daa1e616064",
+      "nombre": "Nicolas Rolon",
+      "email": "nico.enogi@hotmail.com",
+      "cuentasBancarias": []
+    }
+  ],
+  "banco": [],
+  "cuentaBancaria": []
+}
