@@ -10,8 +10,8 @@ export const UsuarioController = {
     },
 
     async getAll(request,response){
-        const usuarios = UsuarioJsonService.getAll();
-
+        const usuarios = await UsuarioJsonService.getAll();
+        console.log(usuarios);
         if(!usuarios){
             response.json({status:404, message: "No se encontraron usuarios"});
             return;

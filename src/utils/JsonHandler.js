@@ -6,8 +6,8 @@ const {DB_PATH:dbPath} = config;
 export const JsonHandler = {
     async read(){
         try{
-            const data = await fs.readFile(dbPath,{encoding: 'utf-8'});
-            return JSON.parse(data || {});
+            const data = await fs.readFile(dbPath,{encoding: "utf-8"});
+            return JSON.parse(data || {"message":"No hay datos"});
         }catch(err){
             console.log(err);
         }

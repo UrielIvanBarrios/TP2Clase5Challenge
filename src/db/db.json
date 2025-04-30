@@ -7,18 +7,18 @@
       "cuentasBancarias": []
     },
     {
-      "id": "d2a4794c-f2b9-473c-ae3f-c1b23c605f95",
-      "nombre": "Nicolas Rolon",
-      "email": "nico.enogi@hotmail.com",
-      "cuentasBancarias": []
-    },
-    {
-      "id": "90e4b943-e31c-434d-875a-7daa1e616064",
-      "nombre": "Nicolas Rolon",
-      "email": "nico.enogi@hotmail.com",
+      "id": "f31c8588-6b98-49d1-b1ba-08d800c2a7e2",
+      "nombre": "Menudo Juan Carlos",
+      "email": "JuanCarlosMenudo@hotmail.com",
       "cuentasBancarias": []
     }
   ],
-  "banco": [],
+  "banco": [
+    {
+      "id": "ecf0ee0b-7aca-47b8-9de5-5d19d640e948",
+      "sucursal": "Sucursal 3",
+      "nombre": "Banco de la korodv Credits"
+    }
+  ],
   "cuentaBancaria": []
 }

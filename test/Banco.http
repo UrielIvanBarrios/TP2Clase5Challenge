@@ -1,0 +1,12 @@
+GET http://127.0.0.1:3001/bancos
+
+###
+POST http://127.0.0.1:3001/banco
+Content-Type: application/json
+
+{
+    "banco": {
+        "sucursal" : "Sucursal 3",
+        "nombre" : "Banco de la korodv Credits"
+    }
+}

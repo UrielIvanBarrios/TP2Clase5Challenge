@@ -5,7 +5,7 @@ Content-Type: application/json
 
 {
     "usuario": {
-        "nombre" : "Nicolas Rolon",
-        "email" : "nico.enogi@hotmail.com"
+        "nombre" : "Menudo Juan Carlos",
+        "email" : "JuanCarlosMenudo@hotmail.com"
         }
 }

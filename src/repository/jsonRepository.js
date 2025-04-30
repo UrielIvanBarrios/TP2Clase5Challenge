@@ -18,6 +18,19 @@ export class jsonRepository {
         }
     }
 
+    async createBank(id,sucursal,nombre){
+        const newBanco = new this.model(id,sucursal,nombre);
+        try{
+            const data = await this.getAll();
+            const {banco} = data
+            banco.push(newBanco);
+            JsonHandler.write({...data, banco});
+            return newBanco;
+        }catch(error){
+            console.log("Error al crear el banco", error);
+        }
+    }
+
 
     async getAll() {
         return await JsonHandler.read();
